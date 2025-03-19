@@ -7,8 +7,7 @@
 
 const char* ssid = "DAMIAN";
 const char* pass = "03102003";
-const char* thingspeak_url = "http://api.thingspeak.com/update";
-const char* api_key = "5J4KW6BS29MGCUYB";
+const char* thingAPI = "http://codelab.denkitronik.com:8080/thingname/230212034/estado";
 
 void setup() {
   pinMode(LED, OUTPUT);
@@ -24,7 +23,8 @@ void loop() {
     float temperatura = random(25, 30) + random(0, 100) / 100.0; //Grados Celcius
     float humedad = random(40, 60) + random(0, 100) / 100.0;
 
-    String url = String(thingspeak_url) + "?api_key=" + api_key + "&field1=" + String(temperatura) + "&field2=" + String(humedad);
+    //String url = String(thingspeak_url) + "?api_key=" + api_key + "&field1=" + String(temperatura) + "&field2=" + String(humedad);
+    String url = "http://codelab.denkitronik.com:8080/thingname/230212034?humedad=" + String(humedad) + "&temperatura="+String(temperatura);
 
     http.begin(url);
     int httpCode = http.GET();
