@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/roder/Documents/PlatformIO/Projects"
+		},
+		{
+			"name": "iot-LED-server",
+			"path": "iot-LED-server"
+		},
+		{
+			"name": "iot-cliente-http",
+			"path": "iot-cliente-http"
+		}
+	],
+	"settings": {}
+}
