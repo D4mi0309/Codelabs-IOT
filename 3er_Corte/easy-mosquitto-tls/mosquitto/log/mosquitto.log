@@ -1,0 +1,53 @@
+
+1748455440: mosquitto version 2.0.21 starting
+1748455440: Config loaded from /mosquitto/config/mosquitto.conf.
+1748455440: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1748455440: Warning: File /mosquitto/config/acl owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/acl`.
+1748455440: Warning: File /mosquitto/config/acl group is not mosquitto. Future versions will refuse to load this file.
+1748455440: Opening ipv4 listen socket on port 8883.
+1748455440: mosquitto version 2.0.21 running
+1748455521: New connection from 186.82.101.26:1719 on port 8883.
+1748455521: New client connected from 186.82.101.26:1719 as auto-BD6A034B-040F-7438-CC1B-67B8516665A3 (p2, c1, k60, u'admin').
+1748455521: No will message specified.
+1748455521: Sending CONNACK to auto-BD6A034B-040F-7438-CC1B-67B8516665A3 (0, 0)
+1748455521: Received SUBSCRIBE from auto-BD6A034B-040F-7438-CC1B-67B8516665A3
+1748455521: 	test/topic (QoS 0)
+1748455521: auto-BD6A034B-040F-7438-CC1B-67B8516665A3 0 test/topic
+1748455521: Sending SUBACK to auto-BD6A034B-040F-7438-CC1B-67B8516665A3
+1748455564: New connection from 186.82.101.26:1667 on port 8883.
+1748455564: New client connected from 186.82.101.26:1667 as auto-3FFDC77B-0E50-C5D4-8098-EAB5DAB1BC48 (p2, c1, k60, u'admin').
+1748455564: No will message specified.
+1748455564: Sending CONNACK to auto-3FFDC77B-0E50-C5D4-8098-EAB5DAB1BC48 (0, 0)
+1748455565: Received PUBLISH from auto-3FFDC77B-0E50-C5D4-8098-EAB5DAB1BC48 (d0, q0, r0, m0, 'test/topic', ... (8 bytes))
+1748455565: Sending PUBLISH to auto-BD6A034B-040F-7438-CC1B-67B8516665A3 (d0, q0, r0, m0, 'test/topic', ... (8 bytes))
+1748455565: Received DISCONNECT from auto-3FFDC77B-0E50-C5D4-8098-EAB5DAB1BC48
+1748455565: Client auto-3FFDC77B-0E50-C5D4-8098-EAB5DAB1BC48 disconnected.
+1748455581: Received PINGREQ from auto-BD6A034B-040F-7438-CC1B-67B8516665A3
+1748455581: Sending PINGRESP to auto-BD6A034B-040F-7438-CC1B-67B8516665A3
+1748455607: OpenSSL Error[0]: error:0A000126:SSL routines::unexpected eof while reading
+1748455607: Client auto-BD6A034B-040F-7438-CC1B-67B8516665A3 closed its connection.
+1748455609: mosquitto version 2.0.21 terminating
+1748455609: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1748455609: Error saving in-memory database, unable to open /var/lib/mosquitto//mosquitto.db.new for writing.
+1748455609: Error: No such file or directory.
+1748455613: mosquitto version 2.0.21 starting
+1748455613: Config loaded from /mosquitto/config/mosquitto.conf.
+1748455613: Warning: File /mosquitto/config/acl has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl`.
+1748455613: Warning: File /mosquitto/config/acl owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/acl`.
+1748455613: Warning: File /mosquitto/config/acl group is not mosquitto. Future versions will refuse to load this file.
+1748455613: Opening ipv4 listen socket on port 8883.
+1748455613: mosquitto version 2.0.21 running
+1748456789: New connection from 184.105.247.194:60174 on port 8883.
+1748456791: Sending CONNACK to MqttClient (0, 5)
+1748456791: Client MqttClient disconnected, not authorised.
+1748457414: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1748457414: Error saving in-memory database, unable to open /var/lib/mosquitto//mosquitto.db.new for writing.
+1748457414: Error: No such file or directory.
+1748459215: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1748459215: Error saving in-memory database, unable to open /var/lib/mosquitto//mosquitto.db.new for writing.
+1748459215: Error: No such file or directory.
+1748461016: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1748461016: Error saving in-memory database, unable to open /var/lib/mosquitto//mosquitto.db.new for writing.
+1748461016: Error: No such file or directory.
